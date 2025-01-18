@@ -1,5 +1,7 @@
 ## Setup instruction
 
+Install clang first.
+
 ### Method 1 - Clone this repo directly
 
 1. Clone this repo:
@@ -69,4 +71,10 @@
   ./scripts/feeds update -a
   ./scripts/feeds install -a
   ```
+
+### Note
+
+#### ⚠ For OpenWrt 21.02 or lower version
+You have to manually upgrade Golang toolchain to [1.21](https://github.com/openwrt/packages/tree/openwrt-23.05/lang/golang) or higher to compile Xray-core.
+
 
